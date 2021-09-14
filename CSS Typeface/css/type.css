@@ -1,0 +1,217 @@
+body{
+    background-color: pink;
+}
+.letter_wide{
+    position: absolute;
+    width:600px;
+    height:500px;
+    border-style: dashed;
+    border-width: 8px;
+    border-color: palevioletred;
+}
+.letter{
+    position: absolute;
+    width:350px;
+    height:500px;
+    border-style: dashed;
+    border-width: 8px;
+    border-color: palevioletred;
+}
+#a{
+    margin-top: 200px;
+    margin-left: 200px;
+    /* background-color: palevioletred; */
+}
+.vertical{
+    position: absolute;
+    background-color: black;
+    width: 80px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+}
+.diagonal{
+    position: absolute;
+    background-color: black;
+    width: 20px;
+    height: 685px;
+    margin-left: 305px;
+    margin-top: -93px;
+    transform: rotate(-45deg);
+    
+}
+.horizontal{
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    width: 445px;
+    top: 75%;
+}
+
+#a2{
+    margin-top: 800px;
+    margin-left: 200px;
+}
+.top{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+}
+.top-subtract{
+    position: absolute;
+    background-color: pink;
+    width: 100%;
+    height: 300px;
+    left: 0%;
+    top: 30%;
+}
+.bowl{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0%;
+    bottom:0%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+}
+.stem{
+    position: absolute;
+    background-color: black;
+    width: 20px;
+    height: 68%;
+    left: 320px;
+    top: 30%;
+
+}
+#a3{
+    margin-top: 1400px;
+    margin-left: 200px;
+
+}
+.terminal{
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    left:0px;
+    top: 120px;
+}
+.bowl-solid{
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    left: 0%;
+    bottom:0%;
+    border-radius: 50%;
+}
+.linecap{
+    position: absolute;
+    background-color: black;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#a3_linecap{
+    left: 320px;
+    top: 480px;
+}
+
+#h{
+    margin-top: 1400px;
+    margin-left: 1400px;
+}
+#h_stem{
+    left: 0px;
+    top:2%;
+    height: 96%;
+}
+#h1_linecap{
+    left: 0px;
+    top: 0px;
+}
+#h2_linecap{
+    left: 0px;
+    top: 96%;
+}
+#h_bowl{
+    left: 10%;
+}
+.corner{
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+#h_corner{
+    left: 185px;
+    top: 350px;
+}
+/* #h_terminal{
+    left: 260px;
+    top: 430px;
+} */
+
+#f{
+    margin-top: 1400px;
+    margin-left: 1000px;
+}
+#f_top{
+    top: 0px;
+    left: 0px;
+}
+#f_linecap{
+    top: 140px;
+    left: 318px;
+}
+#f_stem{
+    left: 1px;
+}
+#f2_linecap{
+    top: 480px;
+    left: 1px;
+}
+#f_terminal{
+    left: 40px;
+    top: 200px;
+
+}
+#f2_terminal{
+    left: 270px;
+    top: 120px;
+
+}
+#g{
+    margin-top: 1400px;
+    margin-left: 600px;
+}
+#g_bowl{
+    left: 0px;
+    top: 0px;
+}
+#g_top{
+    top: 160px;
+    left: 0px;
+}
+#g_topsub{
+    top: 40px;
+}
+#g_stem{
+    top: 8px;
+}
+#g_linecap{
+    top:0px;
+    left: 320px;
+}
+#g_terminal{
+    left: 0px;
+    top: 310px;
+}
