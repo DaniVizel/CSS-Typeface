@@ -1,0 +1,214 @@
+
+* {
+    box-sizing: border-box;
+    }
+
+.letter {
+    width:170px; /*resize as you see fit */
+    height:250px; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border:1px solid lightblue; /*feel free to remove or hide this rule */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+.top{
+    position: absolute;
+    width: 170px;
+    height: 85px;
+    left: 0;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border:15px solid black;
+    border-bottom: none;
+}
+
+.stem{
+    position: absolute;
+    background: black;
+    width: 15px;
+    height: 160px;
+    left: 155px;
+    top: 84px;
+}
+
+.bowl-solid{
+    position: absolute;
+    background: black;
+    width: 140px;
+    height: 140px;
+    left: 0;
+    top:110px;
+    border-radius: 50%;
+}
+
+.linecap {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cap-a { 
+    top: 235px; 
+    left: 155px;
+}
+
+.terminal {
+    position: absolute;
+    background: black;
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+    left:0px;
+    top: 68px;
+}
+.b-stem {
+    left: 0;
+    top: 8;
+    height: 235px;
+}
+
+.cap-b1 {
+    left: 0px;
+    top: 0px;
+}
+.cap-b2{
+    left: 0px;
+    top: 235px;
+}
+.b-bowl {
+    left: 28px;
+}
+.curve {
+    position: absolute;
+    border:15px solid black;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    top: 110px;
+    left: 20px;
+}
+.curve-cutout {
+    background: white;
+    position: absolute;
+    width: 82px;
+    height: 70px;
+    left: 84px;
+    top: 145px;
+    transform: rotate(20deg);
+}
+.c-terminal{
+    left: 120px;
+    top: 140px;
+}
+.c-cap{
+    position: absolute;
+    left: 129px;
+    top: 213px;
+    width: 16px;
+    height: 16px;
+}
+.d-stem {
+    top: 8;
+    height: 235px;
+    left: 155px;
+}
+.cap-d1 {
+    left: 155px;
+    top: 235px;
+}
+.cap-d2 {
+    left: 155px;
+}
+.e-cutout {
+    background: white;
+    height: 50px;
+    top: 165px;
+}
+.e-cap {
+    background: black;
+    position: absolute;
+    left: 145px;
+    top: 166px;
+    width: 15px;
+    height: 15px;
+}
+.horizontal {
+    position: absolute;
+    background: black;
+    height: 15px;
+    width: 124px;
+    top: 166px;
+    left: 30px;
+}
+.f-stem {
+    left: 0px;
+    top: 85px;
+}
+.f-linecap {
+    left: 0px;
+    top: 235px;
+}
+.f-terminal {
+    left: 135px;
+}
+.f2-terminal {
+    left: 30px;
+    top: 145px;
+}
+.g-stem {
+    height: 180px;
+    top: 120px;
+}
+.bottom {
+    position: absolute;
+    width: 170px;
+    height: 85px;
+    left: 0;
+    top: 300px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border:15px solid black;
+    border-top: none;
+}
+.g-linecap {
+    left: 155px;
+    top: 112px;
+}
+.g-terminal {
+    top: 282px;
+}
+
+.corner{
+    position: absolute;
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 10%;
+    top: 175px;
+    left: 93px;
+}
+.short-stem {
+    background: black;
+    position: absolute;
+    width: 15px;
+    height: 125px;
+    top: 120px;
+    left: 50px;
+}
+.i-terminal {
+    left: 40px;
+}
+.i-cap {
+    left: 50px;
+    top: 112px;
+}
+.i2-cap {
+    left: 50px;
+    top: 235px;
+}
+.j-terminal {
+    left: 145px;
+
+}

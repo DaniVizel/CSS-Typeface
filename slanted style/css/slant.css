@@ -1,0 +1,150 @@
+
+.letter {
+    width:510px; /*resize as you see fit */
+    height:200px; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border:1px solid lightblue; /*feel free to remove or hide this rule */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+    overflow: hidden;
+}
+.letter-a {
+    z-index: 100;
+}
+.thick-slant {
+    position: absolute;
+    background: black;
+    width: 120px;
+    height: 495px;
+    transform: rotate(40deg);
+    top: -97px;
+    left: 60px;
+}
+.negative {
+    position: absolute;
+    background: white;
+    width: 100px;
+    height: 60px;
+}
+/*
+.neg-top {
+    top: -201px;
+    left: 100px;
+}
+.neg-bottom {
+    top: 201px;
+    left: -100px;
+} */
+.neg-diagonal {
+    position: absolute;
+    background: white;
+    width: 50px;
+    height: 310px;
+    transform: rotate(40deg);
+    top: -55px;
+    left: 415px;
+}
+.vertical {
+    position: absolute;
+    background: black;
+    width: 10px;
+    height: 300px;
+    left: 320px;
+    top: -5px
+}
+.crossbar {
+    position: absolute;
+    background: black;
+    height: 10px;
+    width: 180px;
+    top: 60px;
+    left: 145px;
+}
+.diagonal {
+    position: absolute;
+    background: black;
+    height: 450px;
+    width: 10px;
+    transform: rotate(40deg);
+    top: -65px;
+    left: 360px;
+
+}
+.b-cross {
+    width: 300px;
+}
+.horizontal {
+    position: absolute;
+    background: black;
+    height: 10px;
+    width: 320px;
+    top: -1px;
+    left: 175px;
+}
+.hor-bottom {
+    top: 191px;
+    left: 15px;
+}
+.d-top {
+    width: 380px;
+    left: 115px;
+}
+.e-cross {
+    width: 200px;
+}
+.neg-crossbar {
+    height: 100px;
+    background: white;
+    top: 30px;
+    left: 315px;
+}
+.g-diagonal {
+    height: 188px;
+    left: 366px;
+    top: 42px;
+}
+.g-cross {
+    width: 100px;
+    left: 350px;
+    background: black;
+
+}
+.i-thick {
+    left: 150px;
+}
+.i-left {
+    left: 80px;
+}
+.i-right {
+    left: 375px;
+}
+.j-thick {
+    left: 200px;
+}
+.j-left {
+    left: 130px;
+}
+.j-right {
+    left: 425px;
+}
+.j-horizontal-top {
+    left: 225px;
+}
+.j-hor-bottom {
+    top: 191px;
+    left: 55px;
+    width: 200px;
+}
+.j-diagonal {
+    left: 75px;
+    height: 100px;
+    top: 120px;
+}
+.j-neg {
+    left: 50px;
+    top: 90px;
+}
+.p-diagonal {
+    height: 93px;
+    top: -15px;
+    left: 466px;
+}
