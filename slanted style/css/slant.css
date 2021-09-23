@@ -43,14 +43,6 @@
     top: -55px;
     left: 415px;
 }
-.vertical {
-    position: absolute;
-    background: black;
-    width: 10px;
-    height: 300px;
-    left: 320px;
-    top: -5px
-}
 .crossbar {
     position: absolute;
     background: black;
@@ -143,8 +135,121 @@
     left: 50px;
     top: 90px;
 }
+.k-top {
+    transform: rotate(70deg);
+    top: -160px;
+    left: 261px;
+}
+.k-bottom {
+    transform: rotate(160deg);
+    top: 10px;
+    left: 325px;
+
+}
 .p-diagonal {
     height: 93px;
-    top: -15px;
+    top: -16px;
     left: 466px;
+}
+.m-diag-stroke {
+    transform: rotate(160deg);
+    top: -30px;
+    left: 325px;
+    height: 91px;
+}
+.m-diag-stroke2 {
+    transform: rotate(70deg);
+    top: -67px;
+    left: 421px;
+    height: 181px;
+}
+.n-diag {
+    transform: rotate(180deg);
+    left: 320px;
+}
+.vertical {
+    position: absolute;
+    background: black;
+    width: 10px;
+    height: 300px;
+    left: 320px;
+    top: -5px
+}
+.m-leg {
+    left: 500px;
+}
+.s-curve {
+    left: 250px;
+}
+.s-neg1 {
+    left: 0px;
+    top: 70px;
+    width: 300px;
+    height: 200px;
+}
+.s-neg2 {
+    left: 308px;
+    top: 9px;
+    width: 200px;
+    height: 51px;
+}
+.s-touchup {
+    height: 40px;
+    width: 30px;
+    top: -10px;
+    left: 282px;
+}
+.s-neg-diag-left {
+    left: 30px;
+}
+.s-bottom {
+    width: 300px;
+    left: -10px;
+}
+.q-vertical {
+    height: 80px;
+    top: 120px;
+    left: 360px;
+}
+.t-left {
+    left: 60px;
+}
+.t-right {
+    left: 395px;
+}
+.v-thick {
+    left: 200px;
+}
+.v-vertical {
+    left: 140px;
+}
+.w1 {
+    position: relative;
+    left:40px;
+}
+.w-vertical {
+    left: 5px;
+}
+.w-diagonal {
+    left: 40px;
+}
+.x-diagonal {
+    transform: rotate(140deg);
+    top: -100px;
+    left: 250px;
+    height: 400px;
+}
+.y-diagonal {
+    transform: rotate(160deg);
+    top: -50px;
+    left: 170px;
+    height: 200px;
+}
+.z-top {
+    left: 150px;
+    width: 150px;
+}
+.z-bottom {
+    left: 220px;
+    width: 150px;
 }
