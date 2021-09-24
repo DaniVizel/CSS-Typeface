@@ -6,11 +6,13 @@
     border:1px solid lightblue; /*feel free to remove or hide this rule */
     position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
     overflow: hidden;
+
 }
 .letter-a {
     z-index: 100;
 }
 .thick-slant {
+    overflow: hidden;
     position: absolute;
     background: black;
     width: 120px;
@@ -18,12 +20,16 @@
     transform: rotate(40deg);
     top: -97px;
     left: 60px;
+    background-image: repeating-radial-gradient(circle, lightslategrey 10px, black, black 20px);
+    z-index: 10;
+
 }
 .negative {
     position: absolute;
     background: white;
     width: 100px;
     height: 60px;
+    z-index: 50;
 }
 /*
 .neg-top {
@@ -42,6 +48,8 @@
     transform: rotate(40deg);
     top: -55px;
     left: 415px;
+    z-index: 100;
+
 }
 .crossbar {
     position: absolute;
@@ -88,6 +96,8 @@
     background: white;
     top: 30px;
     left: 315px;
+    z-index: 50;
+
 }
 .g-diagonal {
     height: 188px;
@@ -178,22 +188,33 @@
 .m-leg {
     left: 500px;
 }
-.s-curve {
+.s-curve2 {
     left: 250px;
+    z-index: 100;
+    
+}
+.s-curve1 {
+    left: 250px;
+    z-index: 50;
 }
 .s-neg1 {
     left: 0px;
     top: 70px;
     width: 300px;
     height: 200px;
+    z-index: 20;
+
 }
 .s-neg2 {
-    left: 308px;
+    left: 318px;
     top: 9px;
     width: 200px;
     height: 51px;
+    z-index: 100;
 }
 .s-touchup {
+    position: absolute;
+    background: black;
     height: 40px;
     width: 30px;
     top: -10px;
@@ -205,6 +226,29 @@
 .s-bottom {
     width: 300px;
     left: -10px;
+    z-index: 20;
+
+}
+
+.s-neg3 {
+    background: white;
+    width: 20px;
+    height: 30px;
+    transform: rotate(40deg);
+    left: 304px;
+    top: 12px;
+    z-index: 100;
+
+}
+.s-neg4 {
+    background: white;
+    width: 40px;
+    height: 20px;
+    left: 295px;
+    top: 40px;
+    z-index: 100;
+
+
 }
 .q-vertical {
     height: 80px;
