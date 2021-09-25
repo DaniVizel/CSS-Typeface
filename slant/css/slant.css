@@ -1,0 +1,271 @@
+
+.letter {
+    width:320px; 
+    height:200px; 
+    display:inline-block; 
+    /* this makes block level elements act like letters (so they sit next to eachother) */
+     /* border:1px solid lightblue;  */
+    position:relative; 
+    /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+    transform-origin: 0, 100%;
+    /* transform: scale(1.5); */
+    transform: skew(-40deg);
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.letter-d {
+    width: 370px;
+}
+.letter-i , .letter-t {
+    width: 200px;
+}
+.letter-j {
+    width: 290px;
+}
+.letter-k {
+    width: 240px;
+}
+.letter-m {
+    width: 460px;
+}
+.letter-n {
+    width: 300px;
+}
+.letter-w {
+    width: 460px;
+}
+.letter-x {
+    width: 260px;
+}
+.letter-y {
+    width: 210px;
+}
+.letter-z {
+    width: 230px;
+
+}
+
+.thick-slant {
+    overflow: hidden;
+    position: absolute;
+    background: black;
+    width: 120px;
+    height: 202px;
+    /* transform: rotate(40deg); */
+    top: -1px;
+    left: 0px;
+    background-image: repeating-radial-gradient(circle, lightslategrey 10px, black, black 20px);
+    z-index: 10;
+
+}
+
+.crossbar {
+    position: absolute;
+    background: black;
+    height: 10px;
+    width: 180px;
+    top: 60px;
+    left: 85px;
+}
+.diagonal {
+    position: absolute;
+    background: black;
+    height: 202px;
+    width: 12px;
+    /* transform: rotate(40deg); */
+    top: -1px;
+    left: 300px;
+
+}
+.b-cross {
+    width: 220px;
+}
+.horizontal {
+    position: absolute;
+    background: black;
+    height: 10px;
+    width: 190px;
+    top: -1px;
+    left: 115px;
+}
+.hor-bottom {
+    top: 191px;
+}
+.d-top {
+    width: 350px;
+    left: 0px;
+}
+.d-thick{
+    left: 50px;
+}
+
+.d-diag{
+    left: 350px;
+
+}
+.d-bot{
+    left: 165px;
+}
+
+.e-cross {
+    width: 200px;
+}
+
+.g-diagonal {
+    height: 140px;
+    left: 295px;
+    top: 60px;
+}
+.g-cross {
+    width: 50px;
+    left: 250px;
+    background: black;
+
+}
+.i-thick {
+    left: 35px;
+}
+.i-hor {
+    left: 0;
+}
+.i-bot {
+    left:0;
+}
+.j-thick {
+    left: 125px;
+}
+.j-left {
+    left: 130px;
+}
+.j-right {
+    left: 425px;
+}
+.j-hor {
+    left: 90px;;
+}
+.j-hor-bottom {
+    top: 191px;
+    left: 0px;
+    width: 180px;
+}
+.j-diagonal {
+    left: 0px;
+    height: 75px;
+    top: 120px;
+}
+.k-top {
+    transform: rotate(60deg);
+    top: -35px;
+    left: 160px;
+    height: 150px;
+}
+.k-bottom {
+    transform: rotate(320deg);
+    top: 20px;
+    left: 160px;
+    width: 8px;
+
+}
+.p-diagonal {
+    height: 65px;
+    top: 0px;
+    left: 293px;
+}
+.n-diag {
+    transform: rotate(180deg);
+    left: 320px;
+}
+.vertical {
+    position: absolute;
+    background: black;
+    transform: skew(40deg);
+    width: 10px;
+    height: 200px;
+    left: 195px;
+    top: 0px
+}
+.m-diag {
+    left: 280px;
+}
+.m-leg2 {
+    left: 365px;
+} 
+.s-curve2 {
+    left: 190px;
+    height: 141px;
+    top: 60px;
+}
+.s-curve1 {
+    height: 71px;
+    top: -1px;
+}
+
+.s-bottom {
+    width: 190px;
+    left: 0px;
+    z-index: 20;
+
+}
+.t-horizontal{
+    left: 0px;
+}
+.q-vertical {
+    height: 90px;
+    top: 110px;
+    left: 300px;
+}
+.t-left {
+    left: 60px;
+}
+.t-right {
+    left: 395px;
+}
+.v-thick {
+    left: 173px;
+}
+.v-vertical {
+    left: 90px;
+}
+.w-thick {
+    left: 295px;
+}
+.w1 {
+    position: relative;
+    left:40px;
+}
+.w-vertical {
+    left: 80px;
+}
+.w-diagonal {
+    left: 165px;
+}
+.w-diagonal2 {
+    left: 210px;
+}
+.x-diagonal {
+    transform: skew(50deg);
+    top: 0px;
+    left: 120px;
+    height: 200px;
+}
+.x-thick {
+    left: 70px;
+}
+.y-diagonal {
+    transform: skew(40deg);
+    top: 0px;
+    left: 90px;
+    height: 200px;
+}
+.y-thick {
+    left: 80px;
+}
+.z-top {
+    left: 0px;
+    width: 150px;
+}
+.z-bottom {
+    left: 70px;
+    width: 150px;
+}
