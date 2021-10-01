@@ -24,7 +24,7 @@ function moveLetters(event) {
     var mouseX = event.clientX;
     // console.log(mouseX);
     for (var i=0; i< letterArray.length; i++){
-        letterArray[i].style.transform = "skew("+ 40+mouseX/10 + "deg)";
+        letterArray[i].style.transform = "skew("+mouseX/9 * -1+ "deg)";
     
     }
   }
