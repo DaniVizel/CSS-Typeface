@@ -2,11 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
+
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 120px;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 2em;
+
 }
 .spacer {
     width: 100%;
@@ -18,7 +30,17 @@ h2 {
     /* transform: translateX(-50%) scale(0.5); */
 
     text-align: center;
+    animation-name: fadein;
+    animation-duration: 4s;
 
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{ 
+        opacity: 100%;
+    }
 }
 .word1 {
     width: 2080px;
@@ -44,5 +66,22 @@ h2 {
     top: 490px;
     transform: translateX(-50%) scale(0.3);
 
+}
+.dot {
+    background: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: none;
+    display:inline-block; 
+    margin: 100px;
+
+
+}
+.date {
+    width: 4000px;
+    animation-name: none;
+    transform: translateX(-50%) scale(0.2);
+    top: 1200px;
 }
 
