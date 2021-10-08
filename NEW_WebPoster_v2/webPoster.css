@@ -2,14 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
-.green-circle {
-    position: absolute;
-    width: 700px;
-    filter: invert(39%) sepia(19%) saturate(930%) hue-rotate(88deg) brightness(95%) contrast(90%);    height: auto;
-    z-index: 10;
-    transform: skew(-20deg);
+body {
+    background-color: whitesmoke;
 }
-
+.bigContainer {
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
 /*
 css filter colour generator
  https://codepen.io/sosuke/pen/Pjoqqp */
@@ -24,21 +24,23 @@ h2 {
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 11pt;
+    font-size: 14pt;
     text-align: left;
     margin: auto;
-    max-width: 900px;
+    max-width: 800px;
     margin-top: 2em;
     position: absolute;
+    line-height: 1.5em;
 }
 
 .parallax {
-    width: 100%;
+    width: 1440px;
     height: 100%;
     position: relative;
     overflow-y: scroll;
     perspective: 12px; /* the depth of the "box" */
     perspective-origin: 0%;
+    margin: auto;
 }
 .container {
     position: absolute;
@@ -75,7 +77,7 @@ p {
     width: 4000px;
     animation-name: none;
     transform: translateX(-50%) scale(0.2);
-    top: 2250px;
+    top: 2200px;
     padding-bottom: 1000px;
     padding-top: 0;
 
@@ -84,23 +86,39 @@ p {
 
 .line1 {
     position: absolute;
-    left: 35%;
-    top: 80%;
+    right: 200px;
+    top: 500px;
     transform: translateZ(1px) scale(0.92);
+    text-align: right;
 
 }
 .line2 {
     position: absolute;
-    left: 10%;
-    top: 165%;
+    left: 150px;
+    top: 1200px;
     transform: translateZ(1px) scale(0.92);
 }
-.line3 {
+.line2-2 {
     position: absolute;
-    left: 25%;
-    top: 260%;
+    left: 150px;
+    top: 1650px;
     transform: translateZ(1px) scale(0.92);
 }
+.line2-3 { /* join us */
+    position: absolute;
+    top: 1900px;
+    transform: translateZ(1px) scale(0.92);
+    text-align: center;
+    left: 250px;
+
+
+}
+/* .line3 {
+    position: absolute;
+    top: 1900px;
+    transform: translateZ(1px) scale(0.92) translateX(-50%);
+    left: 50%;
+} */
 .letter-r {
     position: absolute;
     transform: translateZ(4px) skew(-40deg) scale(0.9);
@@ -119,33 +137,43 @@ p {
     position: absolute;
     transform: translateZ(4px) skew(-40deg) scale(0.4);
     left: 200px;
-    top: 810px;
+    top: 710px;
 }
 .letter-o {
     position: absolute;
     transform: translateZ(7px) skew(-40deg) scale(0.6);
     left: 220px;
-    top: 850px;
+    top: 750px;
 }
 .letter-r2{
     position: absolute;
     transform: translateZ(4px) skew(-40deg) scale(0.4);
-    top: 1550px;
+    top: 1380px;
     left: 460px;
 }
 .letter-n{
     position: absolute;
     transform: translateZ(7px) skew(-40deg) scale(0.4);
-    top: 1580px;
+    top: 1410px;
     left: 340px;
 
 }
-.line4{
+.line4{ /* introducing */
     transform: translateZ(1px) scale(0.92);
     position: absolute;
     text-align: center;
     width: 90%;
-    top: 270%;
+    top: 2040px;
+
+}
+.line4-2{
+    transform: translateZ(2px) scale(0.92);
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    top: 2450px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
 
 }
 .line5{
@@ -153,40 +181,61 @@ p {
     position: absolute;
     text-align: center;
     width: 90%;
-    top: 2600px;
+    top: 2550px;
 }
 .final-r{
     transform: translateZ(4px) skew(-40deg) scale(0.6);
-    top: 2180px;
+    top: 2130px;
     left: 0px;
 }
 .final-e{
     transform: translateZ(5px) skew(-40deg) scale(0.4);
-    top: 2220px;
+    top: 2170px;
     left: 70px;
 
 }
 .final-b{
     transform: translateZ(6px) skew(-40deg) scale(0.3);
-    top: 2190px;
+    top: 2140px;
     left: 170px;
 
 }
 .final-o{
     transform: translateZ(4px) skew(-40deg) scale(0.7);
-    top: 2210px;
+    top: 2160px;
     left: 430px;
 
 }
 .final-r2{
     transform: translateZ(2px) skew(-40deg) scale(0.5);
-    top: 2200px;
+    top: 2150px;
     left: 740px;
 
 }
 .final-n{
     transform: translateZ(7px) skew(-40deg) scale(0.25);
-    top: 2240px;
+    top: 2190px;
     left: 380px;
+
+}
+.img1 {
+    width: 700px;
+    transform: translateZ(3px);
+    opacity: 60%;
+    position: absolute;
+    top: 640px;
+    left: 500px
+}
+.img2 {
+    width: 600px;
+    transform: translateZ(3px);
+    opacity: 60%;
+    position: absolute;
+    top: 1400px;
+    left: -250px;
+
+
+
+
 
 }
