@@ -1,5 +1,6 @@
 //GLOBAL VARIABLES
 var letterArray = document.querySelectorAll(".letter");
+var circleArray = document.querySelectorAll(".green-circle");
 
 
 
@@ -12,14 +13,14 @@ console.log("duck duck goose");
 // document.onclick = skew;
 
 
-document.onmousemove = moveLetters;
-
-
+// document.onmousemove = moveLetters;
+document.onmousemove = moveCircle;
 
 
 
 
 // FUNCTIONS
+
 function moveLetters(event) {
     var mouseX = event.clientX;
     // console.log(mouseX);
@@ -29,9 +30,11 @@ function moveLetters(event) {
     }
   }
 
-// function skew(){
-//     for (var i=0; i< letterArray.length; i++){
-//         letterArray[i].style.transform = "skew(40deg)";
-    
-//     }
-// }
+
+function moveCircle(event) {
+  var mouseX = event.clientX;
+
+  for (var i=0; i< circleArray.length; i++){
+    circleArray[i].style.transform = "skew("+ (-20 + mouseX/100 * -1) + "deg)";
+}
+}

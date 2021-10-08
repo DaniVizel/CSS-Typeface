@@ -2,12 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
-img {
+.green-circle {
     position: absolute;
-    fill: lime;
-    width: 500px;
-    height: auto;
+    width: 700px;
+    filter: invert(39%) sepia(19%) saturate(930%) hue-rotate(88deg) brightness(95%) contrast(90%);    height: auto;
+    z-index: 10;
+    transform: skew(-20deg);
 }
+
+/*
+css filter colour generator
+ https://codepen.io/sosuke/pen/Pjoqqp */
+
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
