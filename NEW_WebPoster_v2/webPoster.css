@@ -1,15 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    left: 0px;
 }
 body {
     background-color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Times New Roman';
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Garamond', serif;
 
 }
 .bigContainer {
-    max-width: 1440px;
+    width: 1440px;
     margin: auto;
     text-align: center;
 }
@@ -25,7 +26,7 @@ h2 {
 }
 p {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left;
     margin: auto;
     max-width: 800px;
@@ -35,33 +36,21 @@ p {
 }
 
 .parallax {
-    width: 1440px;
+    width: 100%;
     height: 100%;
     position: relative;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
     perspective: 12px; /* the depth of the "box" */
     perspective-origin: 0%;
     margin: auto;
+    left: 0;
 }
 .container {
     position: absolute;
     left: 50%;
-    /* transform: translateX(-50%) scale(0.5); */
-
     text-align: center;
-    /* animation-name: fadein;
-    animation-duration: 4s; */
-
 }
-
-/* @keyframes fadein {
-    0%{
-        opacity: 0;
-    }
-    100%{ 
-        opacity: 100%;
-    }
-} */
 
 .dot {
     background: black;
@@ -87,7 +76,7 @@ p {
 
 .line1 {
     position: absolute;
-    right: 200px;
+    right: -200px;
     top: 500px;
     transform: translateZ(1px) scale(0.92);
     text-align: right;
@@ -108,10 +97,10 @@ p {
 .line2-3 { /* join us */
     position: absolute;
     top: 1900px;
-    transform: translateZ(1px) scale(0.92);
+    transform: translateZ(1px) scale(0.92) translateX(50%);
+    left: -50px;
     text-align: center;
-    left: 250px;
-
+    margin: auto;
 
 }
 /* .line3 {
@@ -160,21 +149,24 @@ p {
 
 }
 .line4{ /* introducing */
-    transform: translateZ(1px) scale(0.92);
     position: absolute;
+    transform: translateZ(1px) scale(0.92);
+    top: 2140px;
+    left: calc(50% - 125px);
     text-align: center;
-    width: 90%;
-    top: 2040px;
+    margin: auto;
 
 }
 .line4-2{
     transform: translateZ(2px) scale(0.92);
     position: absolute;
     text-align: center;
+    margin: auto;
+    left: -50px;
     width: 90%;
-    top: 2450px;
-    font-weight: 400;
-    letter-spacing: 0.3em;
+    top: 2525px;
+    font-weight: 100;
+    letter-spacing: 0.4em;
 
 }
 .line5{
